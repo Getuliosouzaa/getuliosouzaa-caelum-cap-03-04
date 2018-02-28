@@ -16,3 +16,40 @@ body {
     color: #333333;
 	font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
 }
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container {
+    margin: 0	auto;
+    width: 940px;
+
+}
+header {
+    position:  relative;
+}
+.menu-opcoes {
+    position:	absolute;
+    bottom: 0;
+    right: 0;
+}
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight:	bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    widows: 230px;
+
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
